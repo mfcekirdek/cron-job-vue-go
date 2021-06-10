@@ -84,4 +84,5 @@ func main() {
 	ctx, _ := context.WithTimeout(context.Background(), 15*time.Second)
 
 	_ = srv.Shutdown(ctx)
+	fmt.Println("MFC was here!!!")
 }
